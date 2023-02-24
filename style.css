@@ -6,17 +6,38 @@ body{
     flex-direction: column;
 }
 
+/* Section 1 */
 .header{
     display: flex;
-    justify-content: space-around;
     background-color: #1F2937;
-    align-items: center;
-    height: 70px;
 }
 
-.header .left{
+.left{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero .herosecond{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+}
+/* Section 2 */
+
+
+.signup{
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: 0;
     font-weight: bold;
 }
 

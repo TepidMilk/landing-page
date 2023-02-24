@@ -20,7 +20,7 @@ body{
     flex-flow: column nowrap;
     justify-content: space-between;
     flex: 1;
-    padding: 0 300px;
+    padding: 0 250px;
 }
 
 .top{
@@ -42,6 +42,7 @@ body{
     font-weight: bolder;
     color: #F9FAF8;
     flex: 1;
+    padding-top: 41px;
 }
 
 .heromain{

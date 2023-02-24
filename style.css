@@ -10,42 +10,76 @@ body{
 .header{
     display: flex;
     background-color: #1F2937;
+    justify-content: center;
+    height: 450px;
+    padding-bottom: 90px;
 }
 
-.left{
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 300px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.bottom{
+    display: flex;
 }
 
 .hero{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    flex: 1;
 }
 
-.hero .herosecond{
+.heromain{
+    width: 450px;
+}
+
+.herosecond{
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 100;
+    width: 450px;
+    display: flex;
+    flex-flow: column;
+}
+
+.handsome{
+    width: 450px;
+    height: 290px;
+    flex: 1;
 }
 /* Section 2 */
 
 
-.signup{
+button{
     background-color: #3882f6;
     color: #E5E7EB;
-    border-radius: 5px;
-    padding: 5px 20px;
+    border-radius: 6px;
+    padding: 6px 20px;
     border: 0;
     font-weight: bold;
+    width: max-content;
+    margin-top: 8px;
 }
 
 ul{
     list-style-type: none;
     display: flex;
     gap: 16px;
-    padding: 16px;
 }
 
 a{

@@ -98,7 +98,7 @@ body{
     text-align: center;
 }
 
-.info img{
+.info > img{
     width: 150px;
     height: 150px;
     border: 3px solid #3882f6;
@@ -109,6 +109,7 @@ body{
     width: 50%;
     align-self: center;
     padding: 100px 0 100px;
+    text-align: end;
 }
 
 .quote > .title{
@@ -120,10 +121,25 @@ body{
 
 
 
+
+
 /* Section 4 */
+.call-action{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 2rem 5rem;
+    gap: 7rem;
+    margin: 100px 0;
+    align-items: center;
+}
+
+.call-action > .signup{
+    border: 2px solid #F9FAF8;
+}
 
 
-button{
+.signup{
     background-color: #3882f6;
     color: #E5E7EB;
     border-radius: 6px;
@@ -150,6 +166,5 @@ h2{
 }
 
 h3{
-    text-align: end;
     margin: 0;
 }

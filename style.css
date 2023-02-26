@@ -6,32 +6,95 @@ body{
     flex-direction: column;
 }
 
-.bg-dark{
+.dark-bg{
     background-color: #1F2937;
 }
 
-.container{
-    flex: 1;
-    display: flex;
+.light-bg{
+    background-color: #E5E7EB;
 }
+
+.light-text{
+    color: #E5E7EB;
+}
+
+.default-text{
+    color: #F9FAF8;
+}
+
+.dark-text{
+    color: #1F2937;
+}
+
+.container{
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
 
 /* Section 1 */
 .hero{
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;
 }
 
 .content{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 70%;
 }
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    padding-top: 2rem;
+}
+
+.bottom{
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+
+.bottom > img{
+    flex: 0 0 50%;
+}
+
+.bottom > div{
+    flex: 0 0 35%;
+    height: fit-content;
+    align-self: center;
+}
+
+.shrink{
+    height: 300px;
+}
+
+
 /* Section 2 */
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 2rem;
+}
+.cards{
+    display: flex;
+    gap: 4rem;
+    align-self: flex-start;
+}
 
 .info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 150px;
+    height: auto;
+    text-align: center;
 }
 
 .info img{
@@ -52,18 +115,21 @@ button{
     padding: 6px 20px;
     border: 0;
     font-weight: bold;
-    width: max-content;
-    margin-top: 8px;
 }
 
 ul{
     list-style-type: none;
     display: flex;
     gap: 16px;
+    margin: 0;
 }
 
 a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+h2{
+    margin: 0;
 }

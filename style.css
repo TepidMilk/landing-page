@@ -7,91 +7,23 @@ body{
 }
 
 /* Section 1 */
-.header{
-    display: flex;
-    background-color: #1F2937;
-    justify-content: center;
-    height: 450px;
-    padding-bottom: 90px;
-}
-
-.container{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    flex: 1;
-    padding: 0 250px;
-    box-sizing: border-box;
-}
-
-.top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
-}
-
-.bottom{
-    display: flex;
-}
-
 .hero{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    flex: 1;
-    padding-top: 41px;
 }
 
-.heromain{
-    width: 450px;
-}
-
-.herosecond{
-    font-size: 18px;
-    color: #E5E7EB;
-    font-weight: 100;
-    width: 450px;
-    display: flex;
-    flex-flow: column;
-}
-
-.handsome{
+.introimg{
     width: 450px;
     height: 290px;
     flex: 1;
 }
 /* Section 2 */
-.head-info{
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-    text-align: center;
-    margin: 30px 0 40px 0;
-}
-
-.information{
-    display: flex;
-    justify-content: center;
-    gap: 52px;
-    margin-bottom: 100px;
-}
 
 .info{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.info .text{
-    max-width: 150px;
-    font-size: 17px;
-    color: grey;
-    font-weight: normal;
-    margin-top: 10px;
 }
 
 .info img{
@@ -101,38 +33,9 @@ body{
     border-radius: 10px;
 }
 /* Section 3 */
-.quote{
-    background-color: #E5E7EB;
-    display: flex;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-    margin: 0;
-    justify-content: center;
-}
 
-.quote .container{
-    padding: 100px 400px;
-    box-sizing: border-box;
-    width:fit-content
-}
-
-.voice{
-    width: 900px;
-}
-
-.thor{
-    font-size: 20px;
-    font-weight: bolder;
-    font-style: normal;
-    align-self: flex-end;
-    width: 220px;
-}
 /* Section 4 */
-.call-action{
-    border-radius: 10px;
-    background-color: #3882f6;
-}
+
 
 button{
     background-color: #3882f6;

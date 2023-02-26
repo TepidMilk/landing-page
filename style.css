@@ -6,6 +6,15 @@ body{
     flex-direction: column;
 }
 
+.bg-dark{
+    background-color: #1F2937;
+}
+
+.container{
+    flex: 1;
+    display: flex;
+}
+
 /* Section 1 */
 .hero{
     font-size: 48px;
@@ -13,10 +22,9 @@ body{
     color: #F9FAF8;
 }
 
-.introimg{
-    width: 450px;
-    height: 290px;
-    flex: 1;
+.content{
+    display: flex;
+    flex-flow: row wrap;
 }
 /* Section 2 */
 
